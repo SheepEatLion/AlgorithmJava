@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class kakao2021_1 {
+public class k_210805_2 {
     public static void main(String[] args) {
         System.out.println(solution("one4seveneight"));
     }
