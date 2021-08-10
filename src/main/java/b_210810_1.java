@@ -5,7 +5,8 @@ public class b_210810_1 {
         int i;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Scanner sc = new Scanner(System.in);
-        int tc = sc.nextInt(); // tc 개수 입력받기
+        //int tc = sc.nextInt(); // tc 개수 입력받기 --> Null 익셉션 걸림
+        int tc = Integer.parseInt(br.readLine());
         for(i=0; i<tc; i++){
             String answer = "";
             String str = br.readLine(); // 문자열 입력받기
