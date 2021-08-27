@@ -2,7 +2,7 @@
 public class p_210819_1 {
 
     public p_210819_1() {
-        System.out.println(solution([[100,90,98,88,65],[50,45,99,85,77],[47,88,95,80,67],[61,57,100,80,65],[24,90,94,75,65]]));
+        //System.out.println(solution([[100,90,98,88,65],[50,45,99,85,77],[47,88,95,80,67],[61,57,100,80,65],[24,90,94,75,65]]));
     }
     public String solution(int[][] scores) {
         int i, j, k, self_score, max_cnt, min_cnt, avg;
